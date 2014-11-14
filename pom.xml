@@ -344,6 +344,20 @@
         <module>admin</module>
         <module>core</module>
         <module>site</module>
-            <module>combined</module>
-        </modules>
+        <module>combined</module>
+     </modules>
+        
+     <distributionManagement>
+         <repository>
+            <id>releases</id>
+            <name>Releases</name>
+            <url>http://10.0.1.167:8081/nexus/content/repositories/releases</url>
+         </repository>
+
+         <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url>http://10.0.1.167:8081/nexus/content/repositories/snapshots</url>
+         </snapshotRepository>
+     </distributionManagement>
 </project>
